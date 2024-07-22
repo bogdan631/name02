@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock %}
+
+    </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+</head>
+<body>
+<div class="hat">
+    <img src="">
+    <nav>
+        <a href="/">фильмы</a>
+        <a href="https://bk.com">мы в соцсетях</a>
+        <a href="/admin">вход в аккаунт</a>
+    </nav>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+</body>
+</html>
