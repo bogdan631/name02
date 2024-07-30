@@ -1,4 +1,3 @@
-
 {%extends 'main/base.html'%}
 
 {%block title%}
@@ -10,9 +9,9 @@
    <div class="films_block">
    {% for el in table %}
        <div class="film">
-      <h2>{{el.name}}</h2>
+      <h2>{{el.title}}</h2>
            <p>{{el.text}}</p>
        </div>
+    {% endfor %}
    </div>
-{% endfor %}
 {%endblock%}
