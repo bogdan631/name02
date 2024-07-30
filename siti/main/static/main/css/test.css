@@ -2,19 +2,11 @@
     margin-top:250px;
  }
 
- .film{
+.film{
     width:300px;
     padding:10px 10px;
     background-color:#3a65a6;
     border-radius:25px;
     margin:10px;
- }
+}
 
-p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    color:#fffff;
-}
-h2{
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    color:#fffff;
-}
